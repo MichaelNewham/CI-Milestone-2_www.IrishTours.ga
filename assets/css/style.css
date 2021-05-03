@@ -1,0 +1,432 @@
+/* ------------------Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200..900&family=Oxygen:wght@200..900&family=Raleway:wght@200..900&display=swap');
+
+/* ------------------Colours */
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.bg-color-three-reasons {
+    background-color: #8f8f8f;
+    color: #fff;
+    padding: 0 30px 0px;
+}
+
+.bg-color-personal-info {
+    background-color: #676767;
+}
+
+.bg-color-work-history {
+    background-color: #9B59B6;
+}
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #fd7e14;
+}
+
+.ui-menu-color-resume {
+    background-color: #9B59B6;
+}
+
+.ui-menu-color-projects {
+    background-color: #3498db;
+}
+
+.ui-menu-color-contact {
+    background-color: #478614;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+/* ------------------Previous Projects Styling */
+
+.previous-project-info-item {
+	width: 70%;
+	padding-left: 25px;
+}
+
+/* ------------------Special Paddings, Margins, Text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.general-sub {
+    font-family: "Oxygen", sans-serif;
+    color: #fafafa;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0px 30px 0px;
+    float: none;
+    color: #fff;
+}
+
+.section-heading-center {
+    text-align: center;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.col {
+    --bs-gutter-x: 0rem;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/MichaelNewham.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px; /* Originally 360px */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logoedit {
+    background: url("../images/MichaelNewham.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto; /* Originally Cover */
+    background-color: #8f8f8f;
+    min-height: 250px; /* Originally 360px */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 47px;
+    margin-top: 65px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#navhome li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#navhome {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    padding-top: 27px;
+    height: 120px;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuitem a i {
+    padding-top: 27px;
+    height: 26px;
+    display: block;
+    color: #fafafa;
+} 
+
+.menuitem span {
+    padding-top: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Oxygen", sans-serif;
+
+}
+
+/* ------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
+}
+
+/* ------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 2px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+.social-links a {
+    color: #fd7e14;
+}
+
+#footer-details {
+    padding: 30px 0px 0px 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+/* ------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #fd7e14;
+    margin-top: 5px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* ------------------Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.personal-info-item .key {
+    width: 25%;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    width: 60%;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+
+.personal-info-item .icon {
+    width: 15%;
+    text-align: center;
+}
+
+.personal-info-item .icon a:hover {
+    color: #3498db;
+}
+
+.personal-info-item .icon a {
+    color: #fd7e14;
+}
+
+/* ------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section{
+    margin: 40px 20px;
+}
+
+/* ------------------Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;    
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Newsreader", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* ------------------Contact Form */
+
+.col-contact-form {
+    background-color: #8f8f8f;
+    color: #fff;
+}
+
+.contact-heading {
+    font-family: "Newsreader", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 5px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ------------------Media query */
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 60%;
+    }
+}
