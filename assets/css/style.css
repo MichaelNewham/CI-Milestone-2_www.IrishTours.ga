@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200..900&family=Oxygen:wght@200..900&family=Raleway:wght@200..900&display=swap');
 
+/*-------------------Import CSS */
+
+@import 'bootstrap/bootstrap.min.css';
+
 /* ------------------Colours */
 
 .bg-color-name-title {
