@@ -1,11 +1,16 @@
-/* ------------------Fonts */
+/* --------------------Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200..900&family=Oxygen:wght@200..900&family=Raleway:wght@200..900&display=swap');
 
-/*-------------------Import CSS */
+/*-----------------Import CSS */
 
 /* Question to be asked. Why aboue does not work? */
 @import 'assets/css/bootstrap/bootstrap.min.css';
+
+
+/*-------------------main CSS */
+
+
 
 /* ------------------Colours */
 
