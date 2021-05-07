@@ -4,8 +4,8 @@
 
 /*-------------------Import CSS */
 
-/* @import 'bootstrap/bootstrap.min.css'; */
 /* Question to be asked. Why aboue does not work? */
+@import 'assets/css/bootstrap/bootstrap.min.css';
 
 /* ------------------Colours */
 
