@@ -1,0 +1,63 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_area {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        margin-right: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 7px;
+        padding-left: 7px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler {
+        border: 2px solid #fff;
+        color: #fff;
+        margin: 37px 0;
+        -webkit-transition-duration: 500ms;
+                transition-duration: 500ms;
+    }
+    .sticky .navbar-toggler {
+        margin: 17px 0
+    }
+
+    #irishtoursNav {
+        padding: 30px;
+        background-color: #341a79;
+        box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
+        border-radius: 0 0 3px 3px
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header_area {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+        color: #fff;
+        margin: 37px 0;
+        -webkit-transition-duration: 500ms;
+                transition-duration: 500ms;
+    }
+    .sticky .navbar-toggler {
+        margin: 17px 0
+    }
+
+    #irishtoursNav {
+        padding: 15px;
+        background-color: #341a79;
+        box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
+        border-radius: 0 0 3px 3px
+    }
+}
