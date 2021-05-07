@@ -11,8 +11,61 @@
 
 /*-------------------main CSS */
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+#preloader {
+    background-color: rgba(52, 26, 121, 0.99);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
 
+.load-irishtours {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    width: 60px;
+    z-index: 9;
+    -webkit-animation: 4000ms linear 0s normal none infinite running loadirishtours;
+            animation: 4000ms linear 0s normal none infinite running loadirishtours;
+}
+@-webkit-keyframes loadirishtours {
+    0% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@keyframes loadirishtours {
+    0% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
 /* ------------------Colours */
 
 .bg-color-name-title {
